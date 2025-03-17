@@ -1,0 +1,117 @@
+    /* Основные стили */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    header {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin: 0;
+        font-family: 'Metal Mania', cursive;
+        letter-spacing: 2px;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav button {
+        background-color: #444;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        border-radius: 5px;
+    }
+
+    nav button:hover {
+        background-color: #666;
+        transform: scale(1.05);
+    }
+
+    #theme-toggle {
+        background-color: #555;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    #theme-toggle:hover {
+        background-color: #777;
+        transform: scale(1.05);
+    }
+
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .page {
+        display: none;
+        animation: fadeIn 0.5s ease-in-out;
+    }
+
+    .page h2 {
+        color: #222;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        padding-left: 40px;
+        
+    }
+
+    ul li {
+
+    }
+
+
+    footer {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .responsive-image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Анимация появления страниц */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
