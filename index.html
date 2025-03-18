@@ -9,16 +9,15 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="header">
-            <div class="header__video-wrapp">
-                <div class="header__video-box">
-                    <video class="header__video"   loop autoplay>
-                        <source src="img/Новый проект.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <div class='header__video-play' onclick='document.getElementById("header__video").play();'>play</div>
+        <div class="video-background">
+            <video autoplay muted loop id="myVideo">
+                <source src="img/Новый проект.mp4" type="video/mp4">
+            </video>
         </div>
+        <div class="content">
+            <!-- Контент страницы -->
+        </div>
+        
         <main>
             <div id="about" class="page">
                 <h2>Дрифт как автоспорт</h2>
