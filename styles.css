@@ -33,6 +33,15 @@
     .content {
         position: relative;
         z-index: 1;
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        font-size: 3rem;
+        margin: 0;
+        font-family: 'Metal Mania', cursive;
+        letter-spacing: 2px;
     }
     nav {
         margin-top: 20px;
