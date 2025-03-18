@@ -141,7 +141,7 @@
         width: 100%;
     }
     .overlay {
-        background-color: white;
+        background: rgba(0,0,0,0.6);
         position: absolute;
         top:0;
         left:0;
