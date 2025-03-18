@@ -9,6 +9,14 @@
     }
 
     header {
+        background-color: #222;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
         position: fixed;
         right: 0;
         bottom: 0;
@@ -18,13 +26,6 @@
         height: auto;
         z-index: -1000;
         overflow: hidden;
-    }
-
-    header h1 {
-        font-size: 3rem;
-        margin: 0;
-        font-family: 'Metal Mania', cursive;
-        letter-spacing: 2px;
     }
     .video-background {
     position: fixed;
