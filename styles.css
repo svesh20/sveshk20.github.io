@@ -8,6 +8,13 @@
         transition: background-color 0.5s, color 0.5s;
     }
 
+    .holder {
+        position: relative:
+        height: 100vh:
+        width: 100vw
+    }
+
+        
     header {
         background-color: #222;
         color: #fff;
@@ -22,7 +29,19 @@
         font-family: 'Metal Mania', cursive;
         letter-spacing: 2px;
     }
+        
+    section {
+        text-align: center;
+        position: absolute;
+        inset: 0;
+        color: #fff;
 
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+
+    }
+    
     nav {
         margin-top: 20px;
     }
@@ -114,4 +133,3 @@
             opacity: 1;
         }
     }
-
