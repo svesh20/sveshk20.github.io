@@ -8,22 +8,24 @@
         </title>
         <link rel="stylesheet" href="styles.css">
     </head>
-    <div class="video-background">
-        <video autoplay muted loop id="myVideo">
-            <source src="img/zzzz.mp4" type="video/mp4">
-        </video>
-    </div>
     <body>
-        <header>          
-            <h1><p>Дрифт.</p> 
-                <p>От улицы до профессиональной дисциплины.</p>
-            </h1>
-            <nav>
-                <button onclick="showPage('about')">Дрифт как автоспорт</button>
-                <button onclick="showPage('history')">История</button>
-                <button onclick="showPage('bands')">Чемпионаты</button>
-            </nav>
+        <header>
+            <div class="holder">
+                <video src="img/Новый проект.mp4">
+                autoplay loop muted></video>
+                <section>
+                    <h1><p>Дрифт.</p>
+                        <p>От улицы до профессиональной дисциплины</p>
+                    </h1>
+                    <nav>
+                        <button onclick="showPage('about')">Дрифт как автоспорт</button>
+                        <button onclick="showPage('history')">История</button>
+                        <button onclick="showPage('bands')">Чемпионаты</button>
+                    </nav>
+                </section>
+            </div>
         </header>
+        
         <main>
             <div id="about" class="page">
                 <h2>Дрифт как автоспорт</h2>
