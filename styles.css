@@ -22,10 +22,6 @@
         font-family: 'Metal Mania', cursive;
         letter-spacing: 2px;
     }
-    .content {
-    position: relative;
-    z-index: 1;
-    }
 
     nav {
         margin-top: 20px;
