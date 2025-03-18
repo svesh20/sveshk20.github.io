@@ -17,15 +17,10 @@
     }
 
     header h1 {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-        z-index: -1000;
-        overflow: hidden;
+        font-size: 3rem;
+        margin: 0;
+        font-family: 'Metal Mania', cursive;
+        letter-spacing: 2px;
     }
     .video-background {
     position: fixed;
