@@ -45,8 +45,7 @@
         cursor: pointer;
         transition: background-color 0.3s, transform 0.3s;
         border-radius: 5px;
-        display: block; /* Makes the button a block element */
-        margin: 0 auto; /* Centers horizontally */
+        position: center;
     }
 
     nav button:hover {
